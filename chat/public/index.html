@@ -1,0 +1,29 @@
+<doctype html>
+<html>
+<head>
+	<title>Chat</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src='js/chat.js'></script>
+	<script src='/socket.io/socket.io.js'></script>
+</head>
+<body>
+	<div class="chat">
+		<div id="blanket" style="display:block"></div>
+		<div id="namePopUp" style="display:block">
+			<p class="header">Your nickname to start chatting:</p>
+			<input id="name" type="text" autofocus placeholder="My nickname is...">
+			<br>
+			<input id="nameSend" type="button" value="OK">
+		</div>
+		<div id="messages_box">
+		</div>
+
+		<div class="fields">
+			<input id="message" type="text" placeholder="Input your message" autofocus>
+			<input id="send" type="button" value="Send">
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Irina Noschenko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.13.4",
+    "mongoose": "4.4.19",
+    "socket.io": "1.4.6"
+  }
+}
